@@ -1,12 +1,15 @@
 /*
 
 !.gitignore
+!*.gradle
+.gradle
 !README.md
 !LICENSE
 !pom.xml
 
 !library/
 library/*
+!library/build.gradle
 !library/src/
 !library/res/
 !library/libs/
