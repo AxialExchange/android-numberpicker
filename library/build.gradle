@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.5.+'
+        classpath 'com.android.tools.build:gradle:0.9.1'
     }
 }
 repositories {
@@ -15,8 +15,8 @@ apply plugin: 'android-library'
 
 
 android {
-    buildToolsVersion "18.0.1"
-    compileSdkVersion 18
+    buildToolsVersion "19"
+    compileSdkVersion 19
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -40,6 +40,6 @@ android {
         //release.setRoot('build-types/release')
 
     }
-    
+
 }
 
